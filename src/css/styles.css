@@ -1,0 +1,45 @@
+body{
+	font-family: arial,sans-serif-light,sans-serif;
+	font-size: 12px;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1{
+	padding: 10px;
+}
+.container{
+	margin: 10px;
+}
+.form {
+	margin-bottom: 20px;
+}
+.days {
+	margin: 0;
+	padding: 0; 
+}
+.days li {
+    display: inline-block;
+    height: 100px;
+	width: 200px;
+    text-align: center;
+    border: 1px solid #bbcceb;
+    padding: 10px;
+	margin: 10px;
+	background-color: #F0FFFF;
+}
+.loading {
+	height: 216px;
+    width: 100%;
+	background: url('../img/loading.gif') no-repeat center center;
+}
+.error {
+	background-color: #f2dede;
+	padding: 10px;
+}
+.warning {
+	background-color: #fcf8e3;
+	padding: 10px;
+}

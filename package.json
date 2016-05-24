@@ -1,0 +1,29 @@
+{
+  "name": "blip-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && http-server ./public",
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "^1.5.3",
+    "http-server": "^0.9.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.6",
+    "lodash.template": "^4.2.5",
+    "superagent": "^2.0.0-alpha.3"
+  }
+}
